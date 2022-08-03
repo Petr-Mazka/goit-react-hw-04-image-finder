@@ -1,0 +1,14 @@
+.galleryImage{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    border: 2px solid #094067;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.galleryImage:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
